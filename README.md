@@ -1,2 +1,3 @@
-# Repository-GuessMyNumber
-GuessMyNumber - Simple Number Guessing Game
+# GuessMyNumber - Simple Number Guessing Game
+
+The README file will soon be updated.
