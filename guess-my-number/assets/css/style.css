@@ -2,113 +2,113 @@
 
 /* GLOBAL VARIABLES */
 :root {
-    --black: rgb(22, 22, 22);
-    --white: rgb(235, 235, 235);
+  --black: rgb(22, 22, 22);
+  --white: rgb(235, 235, 235);
 }
 
 /* AFFECTING EACH ELEMENT & BODY*/
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Press Start 2P";
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P";
+  box-sizing: border-box;
 }
 
 body {
-    color: var(--white);
-    background-color: var(--black);
+  color: var(--white);
+  background-color: var(--black);
 }
 
 /* TOP PART OF THE PAGE */
 header {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 button {
-    padding: 25px;
-    font-size: 12pt;
-    background-color: var(--white);
-    border: 0px solid;
-    border-radius: 0px;
-    cursor: pointer;
+  padding: 25px;
+  font-size: 12pt;
+  background-color: var(--white);
+  border: 0px solid;
+  border-radius: 0px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
 }
 
 /* MIDDLE PART OF THE PAGE*/
 h1 {
-    margin: 0px 0px 50px 0px;
-    text-align: center;
-    color: var(--white);
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+  color: var(--white);
 }
 
-#middle_div {
-    margin: 50px 0px 100px 0px;
-    text-align: center;
+#middle-div {
+  margin: 50px 0px 100px 0px;
+  text-align: center;
 }
 
-#middle_div hr {
-    width: 50%;
-    border: 3px solid var(--white);
-    background-color: var(--white);
+#middle-div hr {
+  width: 50%;
+  border: 3px solid var(--white);
+  background-color: var(--white);
 }
 
-#middle_div #flex_div {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#middle-div #flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#revealing_div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 120px;
-    height: 100px;
-    margin: auto;
-    font-size: 48pt;
-    color: black;
-    background-color: var(--white);
+#revealing-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  height: 100px;
+  margin: auto;
+  font-size: 48pt;
+  color: black;
+  background-color: var(--white);
 }
 
 /* BOTTOM PART OF THE PAGE*/
-#bottom_div {
-    display: flex;
-    align-self: center;
-    justify-content: space-evenly;
+#bottom-div {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
 }
 
-#left_div {
-    text-align: center;
+#left-div {
+  text-align: center;
 }
 
-#num_input {
-    display: block;
-    width: 200px;
-    height: 100px;
-    margin: 0px 0px 25px 0px;
-    font-size: 32pt;
-    text-align: center;
-    color: var(--white);
-    background-color: inherit;
-    border: 3px solid var(--white);
+#num-input {
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 0px 0px 25px 0px;
+  font-size: 32pt;
+  text-align: center;
+  color: var(--white);
+  background-color: inherit;
+  border: 3px solid var(--white);
 }
 
-#right_div {
-    width: 350px;
-    height: 200px;
-    padding: 10px;
+#right-div {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
 }
 
-#intro_txt {
-    margin: 0px 0px 75px 0px;
+#intro-txt {
+  margin: 0px 0px 75px 0px;
 }
 
-#score_txt {
-    margin: 0px 0px 25px 0px;
+#score-txt {
+  margin: 0px 0px 25px 0px;
 }
